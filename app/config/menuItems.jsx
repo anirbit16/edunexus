@@ -1,0 +1,33 @@
+import {
+  LayoutDashboard,
+  GraduationCap,
+  Users,
+  UserCheck,
+  School,
+  BookOpen,
+  ClipboardList,
+  FileText,
+  CalendarCheck,
+  Calendar,
+  MessageSquare,
+  Bell,
+  Settings,
+  LogOut,
+} from "lucide-react";
+
+export const menuItems = [
+  { label: "Home", href: "/dashboard", icon: LayoutDashboard },
+  { label: "Teachers", href: "/dashboard/teachers", icon: GraduationCap },
+  { label: "Students", href: "/dashboard/students", icon: Users },
+  { label: "Parents", href: "/dashboard/parents", icon: UserCheck },
+  { label: "Classes", href: "/dashboard/classes", icon: School },
+  { label: "Lessons", href: "/dashboard/lessons", icon: BookOpen },
+  { label: "Exams", href: "/dashboard/exams", icon: ClipboardList },
+  { label: "Assignments", href: "/dashboard/assignments", icon: FileText },
+  { label: "Attendance", href: "/dashboard/attendance", icon: CalendarCheck },
+  { label: "Events", href: "/dashboard/events", icon: Calendar },
+  { label: "Messages", href: "/dashboard/messages", icon: MessageSquare },
+  { label: "Announcements", href: "/dashboard/announcements", icon: Bell },
+  { label: "Settings", href: "/dashboard/settings", icon: Settings },
+  { label: "Logout", href: "/logout", icon: LogOut },
+];

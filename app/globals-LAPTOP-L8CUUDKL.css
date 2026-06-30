@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-customSky: #C3E3EA;
+  --color-customSky-light: #EDF9FD;
+  --color-customPurple: #CFCEFF;
+  --color-customPurple-light: #F1F0FF;
+  --color-customYellow: #FAE27C;
+  --color-customYellow-light: #FEFCE8;
+}
